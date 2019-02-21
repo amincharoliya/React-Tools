@@ -22,10 +22,6 @@ const ToolListing = () => {
                         <p>Todo list App developed using React hooks 😍</p>
                         <Link to="/todo" rel="nofollow"></Link>
                     </li>
-                    <li>
-                        <h2><a href="/">Converter</a></h2>
-                        <p>Convert units quickly.</p>
-                    </li>
                 </ul>
             </div>
         </HelmetProvider>
