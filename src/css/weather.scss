@@ -1,0 +1,70 @@
+.weather-app{background-color: #fff;padding: 20px;border-radius: 4px;box-shadow: 0 0 15px rgba(0,0,0,1);
+    form{text-align: center;margin-bottom:30px;
+        span{display: block;font-size: 20px;margin-bottom: 25px;}
+        input{border: 1px solid #333;padding: 5px;width: 250px;max-width: 100%;margin-right: 15px;}
+        button{padding: 5px 10px;border:0;background-color: #333;color: #fff;cursor: pointer;}
+    }
+    .weather-result{background-color: #a9f07d;max-width: 400px;margin: 0 auto;border-radius: 4px;padding: 15px;font-size: 14px;text-align:center;
+        h2{margin-bottom: 20px;}
+        .w_date{margin-bottom: 10px;}
+        .w_current{font-size: 35px;font-weight: bold}
+    }
+    
+}
+.lds-ellipsis {
+    display: block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto; 
+}
+.lds-ellipsis.hidden{display: none;}
+.lds-ellipsis div {
+position: absolute;
+top: 27px;
+width: 11px;
+height: 11px;
+border-radius: 50%;
+background: #333;
+animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+left: 6px;
+animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+left: 6px;
+animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+left: 26px;
+animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+left: 45px;
+animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+0% {
+    transform: scale(0);
+}
+100% {
+    transform: scale(1);
+}
+}
+@keyframes lds-ellipsis3 {
+0% {
+    transform: scale(1);
+}
+100% {
+    transform: scale(0);
+}
+}
+@keyframes lds-ellipsis2 {
+0% {
+    transform: translate(0, 0);
+}
+100% {
+    transform: translate(19px, 0);
+}
+}
