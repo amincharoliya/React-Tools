@@ -14,7 +14,7 @@ const ToolListing = () => (
         <li>
           <h2><Link to="/weather-app">Weather App</Link></h2>
           <p>
-            Check how&aposs the weather today
+            Check how&apos;s the weather today
             <span role="img" aria-label="Hert Eyes"> 🌤 </span>
           </p>
           <Link to="/weather-app" rel="nofollow" />
