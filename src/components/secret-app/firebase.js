@@ -10,6 +10,7 @@ try {
 // eslint-disable-next-line no-empty
 } catch (_) {}
 
+console.log(process.env.FIREBASE_API_KEY);
 
 const config = {
   apiKey: configs.FIREBASE_API_KEY || process.env.FIREBASE_API_KEY, 
