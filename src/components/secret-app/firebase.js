@@ -12,12 +12,12 @@ try {
 
 
 const config = {
-  apiKey: process.env.FIREBASE_API_KEY || configs.FIREBASE_API_KEY, 
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN || configs.FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.FIREBASE_DATABASE_URL || configs.FIREBASE_DATABASE_URL,
-  projectId: process.env.FIREBASE_PROJECT_ID || configs.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || configs.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || configs.FIREBASE_MESSAGING_SENDER_ID,
+  apiKey: configs.FIREBASE_API_KEY || process.env.FIREBASE_API_KEY, 
+  authDomain: configs.FIREBASE_AUTH_DOMAIN || process.env.FIREBASE_AUTH_DOMAIN,
+  databaseURL: configs.FIREBASE_DATABASE_URL || process.env.FIREBASE_DATABASE_URL,
+  projectId: configs.FIREBASE_PROJECT_ID || process.env.FIREBASE_PROJECT_ID,
+  storageBucket: configs.FIREBASE_STORAGE_BUCKET || process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: configs.FIREBASE_MESSAGING_SENDER_ID || process.env.FIREBASE_MESSAGING_SENDER_ID,
 };
 firebase.initializeApp(config);
 
