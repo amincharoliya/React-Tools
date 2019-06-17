@@ -3,7 +3,7 @@
 import React, { Component, Fragment } from 'react';
 import Helmet, { HelmetProvider } from 'react-helmet-async';
 
-import '../css/weather.scss';
+import '../../css/weather.scss';
 import WeatherResult from './weather-result';
 
 class WeatherApp extends Component {

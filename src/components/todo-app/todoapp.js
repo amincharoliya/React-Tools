@@ -3,7 +3,7 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React, { useState } from 'react';
 import Helmet, { HelmetProvider } from 'react-helmet-async';
-import '../css/todo.css';
+import '../../css/todo.css';
 
 const TodoApp = () => {
   const helmetContext = {};

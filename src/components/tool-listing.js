@@ -12,6 +12,15 @@ const ToolListing = () => (
     <div className="wrapper">
       <ul className="tool-listing">
         <li>
+          <h2><Link to="todo">Secrets</Link></h2>
+          <p>
+            Add your Secrets anonymously
+            <span role="img" aria-label="Hert Eyes"> 😷, </span>
+            Data Stored in Firebse.
+          </p>
+          <Link to="/secrets" rel="nofollow" />
+        </li>
+        <li>
           <h2><Link to="/weather-app">Weather App</Link></h2>
           <p>
             Check how&apos;s the weather today

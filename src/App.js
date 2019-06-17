@@ -3,24 +3,28 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 import ToolListing from './components/tool-listing';
-import TodoApp from './components/todoapp';
-import WeatherApp from './components/weatherapp';
+import TodoApp from './components/todo-app/todoapp';
+import WeatherApp from './components/weather-app/weatherapp';
+import Secret from './components/secret-app/secrets';
+import CreateSecret from './components/secret-app/create_secret';
 import './css/app.scss';
 
 const App = () => (
-  <div className="main">
+  <>
     <Router>
-      <div>
+      <div className="main">
         <Header />
         <Switch>
           <Route exact path="/" component={ToolListing} />
           <Route exact path="/weather-app" component={WeatherApp} />
           <Route path="/todo" component={TodoApp} />
+          <Route path="/secrets" component={Secret} />
+          <Route path="/add-secret" component={CreateSecret} />
         </Switch>
-        <Footer />
       </div>
     </Router>
-  </div>
+    <Footer />
+  </>
 );
 
 export default App;
