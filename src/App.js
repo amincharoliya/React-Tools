@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import ToolListing from './components/tool-listing';
 import TodoApp from './components/todo-app/todoapp';
 import WeatherApp from './components/weather-app/weatherapp';
+import CurrencyApp from './components/currency/currency';
 import './css/app.scss';
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
           <Route exact path="/" component={ToolListing} />
           <Route exact path="/weather-app" component={WeatherApp} />
           <Route path="/todo" component={TodoApp} />
+          <Route path="/currency" component={CurrencyApp} />
         </Switch>
       </div>
     </Router>
