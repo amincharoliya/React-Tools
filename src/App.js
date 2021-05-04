@@ -5,8 +5,6 @@ import Footer from './components/footer';
 import ToolListing from './components/tool-listing';
 import TodoApp from './components/todo-app/todoapp';
 import WeatherApp from './components/weather-app/weatherapp';
-import Secret from './components/secret-app/secrets';
-import CreateSecret from './components/secret-app/create_secret';
 import './css/app.scss';
 
 const App = () => (
@@ -18,8 +16,6 @@ const App = () => (
           <Route exact path="/" component={ToolListing} />
           <Route exact path="/weather-app" component={WeatherApp} />
           <Route path="/todo" component={TodoApp} />
-          <Route path="/secrets" component={Secret} />
-          <Route path="/add-secret" component={CreateSecret} />
         </Switch>
       </div>
     </Router>
