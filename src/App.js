@@ -17,7 +17,7 @@ const App = () => (
           <Route exact path="/" component={ToolListing} />
           <Route exact path="/weather-app" component={WeatherApp} />
           <Route path="/todo" component={TodoApp} />
-          <Route path="/currency" component={CurrencyApp} />
+          <Route path="/currency" component={CurrencyApp} /> 
         </Switch>
       </div>
     </Router>
