@@ -12,7 +12,7 @@ const ToolListing = () => (
     <div className="wrapper">
       <ul className="tool-listing">
         <li>
-          <h2><Link to="todo">Currency Converter</Link></h2>
+          <h2><Link to="/currency">Currency Converter</Link></h2>
           <p>
             Add your Secrets anonymously
             <span role="img" aria-label="Hert Eyes"> Convert Currency <span role="img" aria-label="Currency Converter">💱</span>
