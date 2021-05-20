@@ -14,8 +14,8 @@ const ToolListing = () => (
         <li>
           <h2><Link to="/currency">Currency Converter</Link></h2>
           <p>
-            Add your Secrets anonymously
-            <span role="img" aria-label="Hert Eyes"> Convert Currency <span role="img" aria-label="Currency Converter">💱</span>
+            Convert Currency
+            <span role="img" aria-label="Currency Converter">💱</span>
           </p>
           <Link to="/currency" rel="nofollow" />
         </li>
