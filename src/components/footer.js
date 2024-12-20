@@ -6,7 +6,7 @@ const Footer = () => (
       Made with
       <span role="img" aria-label="Heart"> 💙 </span>
       by
-      <a href="https://www.twitter.com/amincharoliya" alt="Amin Charoliya">@amincharoliya</a>
+      <a href="https://www.amincharoliya.com/" alt="Amin Charoliya"> Amin Charoliya</a>
     </p>
   </footer>
 );
